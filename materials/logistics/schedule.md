@@ -79,8 +79,6 @@ Outline:
 
 ## Week 6: Cryptography and Remote Development
 
-Outline:
-
 - Cryptography
   - OpenSSL
 - Encryption and decryption
