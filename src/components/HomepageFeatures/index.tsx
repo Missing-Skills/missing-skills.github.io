@@ -1,55 +1,22 @@
-import React from 'react';
-import clsx from 'clsx';
-import styles from './styles.module.css';
+import clsx from "clsx";
+import React from "react";
+import styles from "./styles.module.css";
 
-type FeatureItem = {
-  title: string;
-  Svg: React.ComponentType<React.ComponentProps<'svg'>>;
-  description: JSX.Element;
-};
-
-const FeatureList: FeatureItem[] = [
-  {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
-    description: (
-      <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
-      </>
-    ),
-  },
-  {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
-    description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
-    ),
-  },
-  {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
-    description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
-      </>
-    ),
-  },
-];
-
-function Feature({title, Svg, description}: FeatureItem) {
+function Feature() {
   return (
-    <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
-      </div>
+    <div className={clsx("col")}>
       <div className="text--center padding-horiz--md">
-        <h3>{title}</h3>
-        <p>{description}</p>
+        <p>
+          This hands-on course introduces students to prevalent technical tools and skills in the informatics and
+          computer science curriculum. Advanced computer literacy is an essential skill that makes students more
+          prepared, versatile, and productive. During this course, students will gain experience using the command line,
+          version control, package managers, scripting languages, LaTeX, code editors, and more. Students will engage
+          with weekly material during class under the supervision and leadership of upper-classmen. After class,
+          students are expected to complete a small take-home activity to assess their resourcefulness and understanding
+          of the material. After taking this course, students will have a breadth of new skills that will help them
+          succeed in future coursework and industry positions. Intended for undergraduate computer science and
+          informatics majors. Prerequisites: CICS 110, INFO 190S, or equivalent programming experience. 1 credit.
+        </p>
       </div>
     </div>
   );
@@ -60,9 +27,7 @@ export default function HomepageFeatures(): JSX.Element {
     <section className={styles.features}>
       <div className="container">
         <div className="row">
-          {FeatureList.map((props, idx) => (
-            <Feature key={idx} {...props} />
-          ))}
+          <Feature />
         </div>
       </div>
     </section>
