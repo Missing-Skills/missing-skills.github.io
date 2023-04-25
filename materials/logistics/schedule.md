@@ -6,26 +6,18 @@ sidebar_position: 2
 
 ## Week 1: Overview and Setup
 
-- Outline:
-
-  - UNIX File Systems
-    - Files
-      - Content vs. Metadata
-      - Permissions
-      - Formats
-      - Encoding
-        - ASCII vs. UTF-8
-    - Directories
-    - Links
-  - WSL
-
-- [Notes](./notes/WEEK_01.md)
-- [Slides](https://google.com)
-- [Assignment 01: Bits, Bytes, and Units](./assignments/ASSIGNMENT_01.md)
+- UNIX File Systems
+- Files
+  - Content vs. Metadata
+  - Permissions
+  - Formats
+  - Encoding
+    - ASCII vs. UTF-8
+- Directories
+- Links
+- WSL
 
 ## Week 2: The Shell
-
-Outline:
 
 - Description of a shell
 - Interacting with the shell
@@ -41,8 +33,6 @@ Outline:
 - Practice using commands
 
 ## Week 3: More Shell Commands
-
-Outline:
 
 - Flags
 - Reading manual pages
@@ -75,8 +65,6 @@ Outline:
 
 ## Week 5: Editors
 
-Outline:
-
 - Vim
   - Practice with `vimtutor`
   - Commands
@@ -102,11 +90,8 @@ Outline:
 - `ssh` and `ssh-keygen`
 - Setup keys locally and on Elnux
 - Setup remote development in VSCode
-- [Assignment 06: Playing Eve](./assignments/ASSIGNMENT_06.md)
 
 ## Week 7: Git
-
-Outline:
 
 - Version control
 - Git trees
@@ -116,8 +101,6 @@ Outline:
 - VSCode Git integration
 
 ## Week 8: Collaboration and Github
-
-Outline:
 
 - Github
 - Repositories
@@ -129,16 +112,12 @@ Outline:
 
 ## Week 9: Package and Version Managers
 
-Outline:
-
 - Registries
 - `apt`, `pacman`, and `brew`
 - `npm`, `yarn`, `pip`, and `cargo`
 - `pipenv` and `nvm`
 
 ## Week 10: Debugging and Profiling
-
-Outline:
 
 - Reading error messages and stacktraces
 - Configuring VSCode's visual debugger
@@ -149,8 +128,6 @@ Outline:
 - Reading profiler results
 
 ## Week 11: Programming Languages
-
-Outline:
 
 - Data formats
   - CSV
@@ -173,8 +150,6 @@ Outline:
 
 ## Week 12: LaTeX
 
-Outline:
-
 - Configuring Editors
   - VSCode
   - Overleaf
@@ -185,8 +160,6 @@ Outline:
 - Templates
 
 ## Week 13: Seeking Help and Asking Questions
-
-Outline:
 
 - How to Google
 - ChatGPT
