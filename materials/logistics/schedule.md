@@ -6,64 +6,80 @@ sidebar_position: 2
 
 ## Week 1: Overview and Setup
 
-- UNIX File Systems
-- Files
-  - Content vs. Metadata
-  - Permissions
-  - Formats
-  - Encoding
-    - ASCII vs. UTF-8
-- Directories
-- Links
-- WSL
+- Goals of the course
+- Why missing skills are important
+- Common applications: file manager, terminal, etc.
+- WSL and SSH setup
+- The UNIX file system
+- Navigating the file system
 
-## Week 2: The Shell
+## Week 2: Navigating the Shell
 
 - Description of a shell
 - Interacting with the shell
-  - Current working directory
-  - Commands
-  - Command line arguments
-  - ^C, ^D
+- Current working directory
+- Interacting with the file system
+  - `pwd`, `cd`, `ls`, `mv`, `cp`, `rm`, `chmod`, `tree`
 - Relative vs. absolute paths
   - `.`, `..`, `/`, `~`
-- Manual Pages
-- Interacting with the file system
-  - `pwd`, `cd`, `ls`, `mv`, `cp`, `rm`, `chmod`
-- Practice using commands
+- Commands
+- Running commands
+  - Arguments
+  - `^C`, `^Z`, `^D`
+  - Manual Pages (note: mac man pages are bad)
+  - Command practice
 
-## Week 3: More Shell Commands
+## Week 3: Editing Files and Redirection
 
-- Flags
-- Reading manual pages
 - Viewing content
   - `cat`, `less`, `nano`
 - Creating files
   - `mkdir`, `touch`
+- Removing files
+  - `rm`, `rmdir`
 - Piping
   - To and from files
   - To and from other commands
-- Formatting output
-  - `head`, `tail`, `sort`
 - Practice with piping
-
-## Week 4: Advanced Shell Usage
-
-Outline:
-
-- Finding information
-  - `which`, `whereis`, `locate`, `find`, `file`
-- Environment
-  - `echo`, `printenv`, `env`, `export`, `set`, `unset`
+- `echo`, `which`, `(h)top`, `sudo`
+- Flags
 - PATH
-- Miscellaneous commands
-  - `(h)top`, `kill`, `sudo`, `wc`, `diff`
-- Pattern Matching
-  - `grep`
-  - Regular expressions
-- Globbing
 
-## Week 5: Editors
+## Week 4: Git
+
+- Version control
+- Git trees
+- Branching and merging
+- `init`, `add`, `commit`, `status`, `log`, `branch`, `diff`, `merge`
+- Practice with `git`
+- VSCode Git integration
+
+## Week 5: Remote Git
+
+- Github, Gitlab, and Bitbucket
+- Remote repositories
+- `push`/`pull`/`remotes`/`stash`
+- Forks
+- Continuous integration
+- Authenticating with Github
+- Signing into Github on VSCode
+
+## Week 6: LaTeX
+
+- Overleaf
+- Documents
+- Formulas
+- Commands
+- TiKz
+- Templates
+
+## Week 7: Package and Version Managers
+
+- Why install with a package manager instead of off the internet?
+- Programming package managers: `pip` and `npm`
+- System package managers: `brew`, `apt`
+
+## Week 8: Editors
 
 - Vim
   - Practice with `vimtutor`
@@ -77,43 +93,26 @@ Outline:
   - Extensions
   - Vim and Emacs emulation
 
-## Week 6: Cryptography and Remote Development
+## Week 9: Programming Languages
 
-- Cryptography
-  - OpenSSL
-- Encryption and decryption
-- Hashes
-  - `md5sum`, `shasum`
-- UUID
-- `ssh` and `ssh-keygen`
-- Setup keys locally and on Elnux
-- Setup remote development in VSCode
-
-## Week 7: Git
-
-- Version control
-- Git trees
-- Branching and merging
-- `add`, `commit`, `status`, `log`, `branch`, `diff`, `merge`
-- Practice with `git`
-- VSCode Git integration
-
-## Week 8: Collaboration and Github
-
-- Github
-- Repositories
-- `push`/`pull`/`remotes`/`stash`
-- Forks
-- Continuous integration
-- Authenticating with Github
-- Signing into Github on VSCode
-
-## Week 9: Package and Version Managers
-
-- Registries
-- `apt`, `pacman`, and `brew`
-- `npm`, `yarn`, `pip`, and `cargo`
-- `pipenv` and `nvm`
+- Data formats
+  - CSV
+  - JSON
+- Markup Languages
+  - YAML
+  - TOML
+  - XML
+- Survey of common programming languages, including:
+  - Bash
+  - Python
+  - JavaScript/TypeScript
+  - Java/Kotlin
+  - C/C++
+  - Rust/Go
+- Resources and applications of various languages
+- Strengths and limitations of specific languages
+  - Interpreted vs. JIT vs. Compiled Languages
+  - Memory management, garbage collection, borrow checking
 
 ## Week 10: Debugging and Profiling
 
@@ -125,39 +124,32 @@ Outline:
 - Logging
 - Reading profiler results
 
-## Week 11: Programming Languages
+## Week 11: Pattern Matching
 
-- Data formats
-  - CSV
-  - JSON
-- Markup Languages
-  - YAML
-  - TOML
-  - XML
-- Interpreted vs. JIT vs. Compiled Languages
-- Heap vs. Stack
-- Architecture and ASM
-- Garbage collectors, borrow checkers, manual memory management
-- Languages - Resources and Applications
-  - Bash
-  - Python
-  - JavaScript/TypeScript
-  - Java/Kotlin
-  - C/C++
-  - Rust/Go
+- Regular expressions
+- `grep`, `wc`
+- Globbing
+- Wildcard characters
 
-## Week 12: LaTeX
+## Additional topic 1: Cryptography
 
-- Configuring Editors
-  - VSCode
-  - Overleaf
-- Documents
-- Formulas
-- Commands
-- TiKz
-- Templates
+- Cryptography
+  - OpenSSL
+- Encryption and decryption
+- Hashes
+  - `md5sum`, `shasum`
+- UUID
+- `ssh` and `ssh-keygen`
+- Setup keys locally and on Elnux
+- Setup remote development in VSCode
 
-## Week 13: Seeking Help and Asking Questions
+## Additional topic 2: Fields of CS, Personal Projects, and Research
+
+- What are the various fields of CS?
+- How do you get started with personal projects?
+- How do you reach out to research advisors?
+
+## Additional topic 3: Seeking Help and Asking Questions
 
 - How to Google
 - ChatGPT
