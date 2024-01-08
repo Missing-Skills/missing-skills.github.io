@@ -6,7 +6,7 @@ sidebar_position: 1
 
 ## General Information
 
-- **Semester:** TBD
+<!-- - **Semester:** TBD -->
 - **Prerequisites:** CICS 110 or equivalent programming experience.
 - **Authors:**
   - Ben Burns (bburns@umass.edu)

@@ -26,7 +26,7 @@ sidebar_position: 2
 - Running commands
   - Arguments
   - `^C`, `^Z`, `^D`
-  - Manual Pages (note: mac man pages are bad)
+  - Manual Pages
   - Command practice
 
 ## Week 3: Editing Files and Redirection
