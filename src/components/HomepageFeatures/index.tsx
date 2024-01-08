@@ -15,7 +15,10 @@ function Feature() {
           students are expected to complete a small take-home activity to bolster their understanding
           of the material. After taking this course, students will have a breadth of new skills that will help them
           succeed in future coursework and industry positions. Intended for undergraduate computer science and
-          informatics majors. Expected background: CICS 110, INFO 190S, or equivalent programming experience.
+          informatics majors. 
+        </p>
+        <p>
+          Expected background: CICS 110, INFO 190S, or equivalent programming experience.
         </p>
       </div>
     </div>

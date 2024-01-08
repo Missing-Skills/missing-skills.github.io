@@ -8,8 +8,8 @@ const katex = import("rehype-katex");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "CICS ???",
-  tagline: "Missing Skills",
+  title: "Missing Skills",
+  tagline: "UMass Amherst",
 
   // Set the production url of your site here
   url: "https://missing-skills.github.io/",
@@ -59,7 +59,7 @@ const config = {
     ({
       // Replace with your project's social card
       navbar: {
-        title: "CICS ???",
+        title: "Missing Skills",
         items: [
           {
             type: "docSidebar",
